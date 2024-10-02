@@ -1,0 +1,74 @@
+---
+title: "Template Presentation"
+subtitle: "Subtitle"
+author: "Mattia Piazza"
+date: "July 2024"
+format:
+  revealjs: 
+  # Output file
+    output-file: index.html
+    # Table of Contents
+    toc: true
+    toc_float: true
+    toc-depth: 1
+    toc-location: body
+    toc-title: "Contents"
+    # Generate a self contained file
+    self-contained: true
+    self-contained-math: true
+    # template-partials:
+    #   - title-slide.html
+    theme: [ custom.scss]
+    slideNumber: true
+    center: false 
+    transition: slide
+    # logo and footer: 
+    # logo: unitn.png
+    footer: "Mattia Piazza | University of Trento, Italy"
+    auto-play-media: true
+---
+
+# TEST
+
+brief text in section slide
+
+# Test section 2
+
+
+## Subsection 1
+
+
+lorem ipsum 
+
+lorem ipsum 
+lorem ipsum 
+
+
+
+## Video test
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc?autoplay=1 width="100%" height="85%" autoplay="true" loop="true" muted="true">}}
+
+<!-- ```{=html}
+<iframe src="https://www.youtube.com/embed/wo9vZccmqwc?autoplay=1" data-autoplay width="100%" height="85%"></iframe>
+``` -->
+
+## BBOX test
+
+two different ways to create a bbox like latex
+
+```{=html}
+<div class="tbboxh">
+    <div class="tbboxh-title">My Custom Title</div>
+    <p>This is an example box in a Quarto Reveal.js presentation.</p>
+</div>
+```
+
+::: {.tbbox}
+#### My Custom Title
+This is an example box in a Quarto Reveal.js presentation.
+
+- item 1
+- item 2
+- item 3
+:::
