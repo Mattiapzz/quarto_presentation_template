@@ -15,46 +15,6 @@ section.slide h2 {
 }
 
 
-// .reveal .slide-logo {
-//   top: 0;
-//   left: 12px;
-//   background-color: #202222;
-// }
-
-// .tbbox-title {
-//   position: absolute;
-//   top: -40px; /* Adjusts to yshift */
-//   left: 20px; /* Adjusts to xshift */
-//   background-color: #0f6e91; /* Title background (colbacktitle) */
-//   color: #ffffff; /* Title text color (coltitle) */
-//   padding:10px 10px; /* Padding around the title */
-//   font-weight: bold;
-//   border-radius: 15px; /* Slightly rounded corners (arc = 2.0mm) */
-//   border: 1px solid #ffffff; /* Title border color */
-//   white-space: nowrap; /* Keep the title on one line */
-// }
-
-// .tbbox {
-//   position: relative;
-//   background-color: #ffffff; /* Replace with your desired bg_cb_color */
-//   border: 5px solid #0f6e91; /* Replace with your desired fg_cb_color */
-//   border-radius: 15px; /* Rounded corners like 'arc = 5.0pt' */
-//   padding: 20px; /* Set padding (boxsep = 0pt, left/right/top/bottom margins) */
-//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional for subtle contour/shadow */
-//   margin-bottom: 20px; /* To create space below the box */
-// }
-
-.myclass {
-  background-color: #ffffff;
-  border: #0f6e91 5px solid;
-  border-radius: 15px;
-  padding: 20px; /* Adds some padding inside the section */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.myclass h3 {
-  color: #fff;
-}
 /* Define the tbbox style */
 .tbboxh {
     position: relative;
@@ -104,7 +64,7 @@ section.slide h2 {
   color: white; /* Title text color */
   padding: 10px 10px;
   font-weight: bold;
-  border-radius: 10px; /* Slightly rounded title corners */
+  border-radius: 18px; /* Slightly rounded title corners */
   white-space: nowrap; /* Prevent text wrapping */
   margin-bottom: -20px; /* Creates negative margin to ensure space outside the border */
 }
