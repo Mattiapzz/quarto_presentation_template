@@ -28,6 +28,7 @@ format:
     auto-play-media: true
     # width: 1920
     # height: 1080
+    html-math-method: mathjax
 ---
 
 # TEST
@@ -66,6 +67,11 @@ two different ways to create a bbox like latex
 
 ::: {.tbbox}
 <!-- #### My Custom Title -->
+::: {.title}
+My Custom Title  
+:::
+
+
 This is an example box in a Quarto Reveal.js presentation.
 
 - item 1

@@ -48,9 +48,10 @@ section.slide h2 {
   position: relative;
   background-color: #ffffff; /* Box background color */
   border: 5px solid #0f6e91; /* Border color */
-  border-radius: 15px; /* Rounded corners */
+  border-radius: 25px; /* Rounded corners */
   padding: 20px;
-  margin-top: 30px; /* Space between the box and previous content */
+  padding-top: 30px;
+  margin-top: 40px; /* Space between the box and previous content */
   margin-bottom: 40px; /* Space below the box */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
@@ -67,4 +68,22 @@ section.slide h2 {
   border-radius: 18px; /* Slightly rounded title corners */
   white-space: nowrap; /* Prevent text wrapping */
   margin-bottom: -20px; /* Creates negative margin to ensure space outside the border */
+}
+
+/* Title Styling */
+.tbbox .title {
+  position: absolute;
+  top: -40px; /* Position above the border */
+  left: 20px; /* Align horizontally */
+  background-color: #0f6e91; /* Title background */
+  color: white; /* Title text color */
+  padding: 0px 20px;
+  font-weight: bold;
+  border-radius: 15px; /* Slightly rounded title corners */
+  white-space: nowrap; /* Prevent text wrapping */
+  margin-bottom: -20px; /* Creates negative margin to ensure space outside the border */
+}
+
+.MJX-TEX {
+  font-family: "Arial Narrow";
 }
