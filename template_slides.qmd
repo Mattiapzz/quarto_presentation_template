@@ -3,9 +3,15 @@ title: "Template Presentation"
 subtitle: "Subtitle"
 author: "Mattia Piazza"
 date: "July 2024"
+resources: data
+filters:
+  - tikz
+execute: 
+  python: "/Users/mattiapiazza/miniconda3/envs/py39/bin/python"
+slide-level: 2
 format:
   revealjs: 
-  # Output file
+    # Output file
     output-file: index.html
     # Table of Contents
     toc: true
@@ -33,7 +39,9 @@ format:
 
 # TEST
 
-brief text in section slide
+<!-- brief text in section slide -->
+
+## Test subsection 1
 
 # Test section 2
 
@@ -93,3 +101,12 @@ $$
 
 ## last
 
+<!-- ``` {.tikz embed_mode="link" scale=3 filename="example" format="svg"}
+\node[draw, circle] (A) at (0,0) {A};
+\node[draw, circle] (B) at (2,2) {B};
+\node[draw, circle] (C) at (4,0) {C};
+\node[draw, circle] (seven) at (5,1) {888888};
+\draw[->] (A) -- (B);
+\draw[->] (B) -- (C);
+\draw[->] (C) -- (A);
+``` -->

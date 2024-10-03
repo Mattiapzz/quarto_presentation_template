@@ -1,21 +1,62 @@
 /*-- scss:rules --*/
 
-section.level1 {
-  top: 0px !important;
+/* Custom CSS for Reveal.js title slide */
+
+.reveal .slide-background:first-of-type {
+  background-color: #0f6e91; /* Background color (optional) */
+  background-image: url('data/logo.png'); /* Path to your logo */
+  background-size: 150px 150px; /* Adjust the size of the logo */
+  background-position: center left; /* Adjust logo position (top-right corner) */
+  background-position-x: 50px;
+  background-repeat: no-repeat; /* Ensure the logo isn't repeated */
 }
+
+
+
+
+/* Style the main title */
+.reveal .slide > section:first-of-type h1 {
+  text-align: right; /* Center the title */
+  max-width: 60%;
+  color: #ffffff;  /* Title color */
+}
+
+/* Style the subtitle */
+.reveal .slide:first-of-type h2 {
+  color: #ffffff; /* Change subtitle color */
+  text-align: right; /* Center the subtitle */
+}
+
+/* Style the author name */
+.reveal .slide:first-of-type .author {
+  color: #ffffff;
+  text-align: right;
+  margin-top: 20px;
+}
+
+/* Style the date */
+.reveal .slide:first-of-type .date {
+  color: #ffffff;
+  text-align: right;
+  margin-top: 10px;
+}
+
+
+
+/* Custom CSS for Reveal.js slides */
 
 .reveal h1 {
   text-align: left;
   vertical-align: top;
+  color: #0f6e91;
 }
 
-section.slide h2 {
-  color: #0f6e91 !important;
-
+.reveal h2 {
+  color: #0f6e91;
 }
-
 
 /* Define the tbbox style */
+
 .tbboxh {
     position: relative;
     background-color: #ffffff; /* Box background color */
@@ -87,3 +128,4 @@ section.slide h2 {
 .MJX-TEX {
   font-family: "Arial Narrow";
 }
+
