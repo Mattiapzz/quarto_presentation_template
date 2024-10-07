@@ -13,6 +13,8 @@ format:
   revealjs: 
     # Output file
     output-file: index.html
+    # template-partials:
+    #   - title-slide.html
     # Table of Contents
     toc: true
     toc_float: true
@@ -20,7 +22,7 @@ format:
     toc-location: body
     toc-title: "Contents"
     # Generate a self contained file
-    self-contained: true
+    # self-contained: true
     self-contained-math: true
     # template-partials:
     #   - title-slide.html
@@ -110,3 +112,5 @@ $$
 \draw[->] (B) -- (C);
 \draw[->] (C) -- (A);
 ``` -->
+
+## test {background-image="https://youtu.be/wo9vZccmqwc?autoplay=1"}
