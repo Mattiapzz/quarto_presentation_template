@@ -22,7 +22,7 @@ format:
     toc-location: body
     toc-title: "Contents"
     # Generate a self contained file
-    # self-contained: true
+    self-contained: true
     self-contained-math: true
     # template-partials:
     #   - title-slide.html
