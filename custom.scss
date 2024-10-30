@@ -2,44 +2,50 @@
 
 /* Custom CSS for Reveal.js title slide */
 
-.reveal .slide-background:first-of-type {
-  background-color: #0f6e91; /* Background color (optional) */
-  background-image: url('data/logo.png'); /* Path to your logo */
-  background-size: 150px 150px; /* Adjust the size of the logo */
-  background-position: center left; /* Adjust logo position (top-right corner) */
-  background-position-x: 50px;
-  background-repeat: no-repeat; /* Ensure the logo isn't repeated */
-}
+// .reveal .slide-background:first-of-type {
+//   background-color: #0f6e91; /* Background color (optional) */
+//   background-image: url('data/logo.png'); /* Path to your logo */
+//   background-size: 550px 550px; /* Adjust the size of the logo */
+//   // background-position: center left; /* Adjust logo position (top-right corner) */
+//   // background-position-x: 50px;
+//   background-position: center;
+//   background-position-y: 0px;
+
+//   background-repeat: no-repeat; /* Ensure the logo isn't repeated */
+// }
 
 
+// .reveal .slide > section:first-of-type h1 {
+//   max-width: 10%;
+//   color: #be1414;  /* Title color */
+// }
 
+// // /* Style the main title */
+// // .reveal .slide > section:first-of-type h1 {
+// //   text-align: right; /* Center the title */
+// //   // max-width: 60%;
+// //   color: #ffffff;  /* Title color */
+// // }
 
-/* Style the main title */
-.reveal .slide > section:first-of-type h1 {
-  text-align: right; /* Center the title */
-  max-width: 60%;
-  color: #ffffff;  /* Title color */
-}
+// /* Style the subtitle */
+// .reveal .slide:first-of-type h2 {
+//   color: #e10dd3; /* Change subtitle color */
+//   text-align: right; /* Center the subtitle */
+// }
 
-/* Style the subtitle */
-.reveal .slide:first-of-type h2 {
-  color: #ffffff; /* Change subtitle color */
-  text-align: right; /* Center the subtitle */
-}
+// /* Style the author name */
+// .reveal .slide:first-of-type .author {
+//   color: #d2f106;
+//   text-align: right;
+//   margin-top: 20px;
+// }
 
-/* Style the author name */
-.reveal .slide:first-of-type .author {
-  color: #ffffff;
-  text-align: right;
-  margin-top: 20px;
-}
-
-/* Style the date */
-.reveal .slide:first-of-type .date {
-  color: #ffffff;
-  text-align: right;
-  margin-top: 10px;
-}
+// /* Style the date */
+// .reveal .slide:first-of-type .date {
+//   color: #0de538;
+//   text-align: right;
+//   margin-top: 10px;
+// }
 
 
 
@@ -112,7 +118,7 @@
 }
 
 /* Title Styling */
-.tbbox .title {
+.tbbox .titlebox {
   position: absolute;
   top: -40px; /* Position above the border */
   left: 20px; /* Align horizontally */
@@ -129,3 +135,34 @@
   font-family: "Arial Narrow";
 }
 
+
+// .reveal .slide > section:first-of-type h1 {
+//   max-width: 10%;
+//   color: #be1414;  /* Title color */
+// }
+
+
+
+.reveal .title:first-of-type {
+  text-align: right; /* Center the title */
+  max-width: 60%;
+  color: #0a0909;  /* Title color */
+}
+
+.reveal .subtitle:first-of-type {
+  text-align: right; /* Center the title */
+  max-width: 60%;
+  color: #4c0a0a;  /* Title color */
+}
+
+.reveal .quarto-title-author:first-of-type {
+  text-align: right; /* Center the title */
+  max-width: 60%;
+  color: #3a14c6;  /* Title color */
+}
+
+.reveal .date {
+  text-align: right; /* Center the title */
+  max-width: 60%;
+  color: #10e71e;  /* Title color */
+}
