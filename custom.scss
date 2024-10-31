@@ -104,10 +104,6 @@
 }
 
 
-
-
-
-
 .reveal .title:first-of-type {
   text-align: right; /* Center the title */
   width: 90%;
@@ -117,7 +113,8 @@
   float: right;
   display: flex;
   flex-direction: column;
-  font-size: 55px
+  font-size: 55px;
+  padding-right: 1% !important;
 }
 
 .reveal .subtitle:first-of-type {
@@ -128,6 +125,7 @@
   display: flex;
   flex-direction: column;
   font-size: 50px;
+  padding-right: 1% !important;
 }
 
 .reveal .quarto-title-authors {
@@ -135,7 +133,8 @@
   float: right;
   display: flex;
   flex-direction: column;
-  padding-right: 0 !important;
+  // padding-right: 0 !important;
+  padding-right: 1% !important;
 }
 
 .reveal .quarto-title-author {
@@ -154,7 +153,8 @@
   float: right;
   display: flex;
   flex-direction: column;
-  font-size: 25px
+  font-size: 25px;
+  padding-right: 1% !important;
 }
 
 .reveal .slide-number > a[href*='title-slide'] {
@@ -187,8 +187,10 @@
   background-repeat: no-repeat; /* Ensure the logo isn't repeated */
 }
 
-// video {
-//   clip-path: fill-box; 
+
+// .reveal .slides:first-of-type > section{
+//   // color white with transparency (0.5)
+//   background-color: rgba(255, 255, 255, 0.7);
 // }
 
 
