@@ -2,7 +2,9 @@
 title: "Template Presentation"
 subtitle: "Subtitle"
 author: "Mattia Piazza"
-date: "July 2024"
+date: today
+# date-format: long
+date-format: "D MMMM YYYY"
 resources: data
 filters:
   - tikz
@@ -114,3 +116,7 @@ $$
 ``` -->
 
 ## test {background-image="https://youtu.be/wo9vZccmqwc?autoplay=1"}
+
+## test {background-color="red"}
+
+![](data/logo.png){fig-align="center" fig-width="50%"}

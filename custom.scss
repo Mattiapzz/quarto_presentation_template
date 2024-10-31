@@ -159,6 +159,27 @@
   flex-direction: column;
 }
 
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
+
+.reveal p:first-of-type {
+  display: none;
+}
+
+.reveal .progress {
+  color: #0f6e91;
+}
+
+.reveal .slide-menu-button {
+  color: #0f6e91;
+}
+
+$body-color: #0f6e91;
+
+// .reveal .slide-menu-button > a[href*='title-slide']:first-of-type {
+//   display: none;
+// }
 
 // .reveal .slide-background:first-of-type {
 //   background-color: #0f6e91; /* Background color (optional) */
