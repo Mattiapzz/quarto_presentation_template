@@ -110,24 +110,24 @@
 
 .reveal .title:first-of-type {
   text-align: right; /* Center the title */
-  width: 80%;
+  width: 90%;
   color: #0f6e91;  /* Title color */
   // position: absolute;
   // right: 0px;
   float: right;
   display: flex;
   flex-direction: column;
-  font-size: 80px
+  font-size: 55px
 }
 
 .reveal .subtitle:first-of-type {
   text-align: right; /* Center the title */
-  width: 80%;
+  width: 90%;
   color: #0f6e91;  /* Title color */
   float: right;
   display: flex;
   flex-direction: column;
-  font-size: 55px;
+  font-size: 50px;
 }
 
 .reveal .quarto-title-authors {
@@ -140,12 +140,9 @@
 
 .reveal .quarto-title-author {
   text-align: right; /* Center the title */
-  // width: 80%;
   color: #0f6e91;  /* Title color */
-  // float: right;
-  // display: flex;
-  // flex-direction: column;
-  padding-right: 0 !important
+  padding-right: 0 !important;
+  font-size: 35px;
 }
 
 
@@ -157,15 +154,16 @@
   float: right;
   display: flex;
   flex-direction: column;
+  font-size: 25px
 }
 
 .reveal .slide-number > a[href*='title-slide'] {
   display: none;
 }
 
-.reveal p:first-of-type {
-  display: none;
-}
+// .reveal .footer > p {
+//   display: none;
+// }
 
 .reveal .progress {
   color: #0f6e91;
@@ -175,20 +173,16 @@
   color: #0f6e91;
 }
 
-$body-color: #0f6e91;
 
 // .reveal .slide-menu-button > a[href*='title-slide']:first-of-type {
 //   display: none;
 // }
 
-// .reveal .slide-background:first-of-type {
-//   background-color: #0f6e91; /* Background color (optional) */
-//   background-image: url('data/logo.png'); /* Path to your logo */
-//   background-size: 550px 550px; /* Adjust the size of the logo */
-//   // background-position: center left; /* Adjust logo position (top-right corner) */
-//   // background-position-x: 50px;
-//   background-position: center;
-//   background-position-y: 0px;
-
-//   background-repeat: no-repeat; /* Ensure the logo isn't repeated */
-// }
+.reveal .slide-background:first-of-type {
+  background-color: #b0efec; /* Background color (optional) */
+  background-image: url('data/logo.png'); /* Path to your logo */
+  background-size: 40%; /* Adjust the size of the logo */
+  background-position-y: 80%;
+  background-position-x: 5%;
+  background-repeat: no-repeat; /* Ensure the logo isn't repeated */
+}

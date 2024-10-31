@@ -1,7 +1,10 @@
 ---
-title: "Template Presentation"
-subtitle: "Subtitle"
-author: "Mattia Piazza"
+title: "Template Presentation for conferences, workshops, and seminars"
+subtitle: "Subtitle if long enough otherwise stick to the main title"
+# author: 
+#   - "Mattia Piazza"
+#   - "Francesco Biral"
+author: "Mattia Piazza, Francesco Biral"
 date: today
 # date-format: long
 date-format: "D MMMM YYYY"
