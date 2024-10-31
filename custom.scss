@@ -186,3 +186,18 @@
   background-position-x: 5%;
   background-repeat: no-repeat; /* Ensure the logo isn't repeated */
 }
+
+// video {
+//   clip-path: fill-box; 
+// }
+
+
+.reveal ul > li > a{
+  color: #0f6e91;
+}
+
+.reveal .slide-menu-button a{
+  color: #0f6e91 !important;
+}
+
+.reveal ul {list-style-type: square;}
