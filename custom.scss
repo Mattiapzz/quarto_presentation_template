@@ -106,7 +106,7 @@
 
 .reveal .title:first-of-type {
   text-align: right; /* Center the title */
-  width: 90%;
+  width: 70%;
   color: #0f6e91;  /* Title color */
   // position: absolute;
   // right: 0px;
@@ -119,7 +119,7 @@
 
 .reveal .subtitle:first-of-type {
   text-align: right; /* Center the title */
-  width: 90%;
+  width: 70%;
   color: #0f6e91;  /* Title color */
   float: right;
   display: flex;
@@ -129,7 +129,7 @@
 }
 
 .reveal .quarto-title-authors {
-  width: 80%;
+  width: 70%;
   float: right;
   display: flex;
   flex-direction: column;
@@ -178,14 +178,24 @@
 //   display: none;
 // }
 
+
 .reveal .slide-background:first-of-type {
-  background-color: #b0efec; /* Background color (optional) */
-  background-image: url('data/logo.png'); /* Path to your logo */
-  background-size: 40%; /* Adjust the size of the logo */
-  background-position-y: 80%;
-  background-position-x: 5%;
-  background-repeat: no-repeat; /* Ensure the logo isn't repeated */
+  // background-color: #b0efec; /* Background color (optional) */
+  background-image: url('data/logo.png'), url('data/tile.png'), url('data/by-nc-sa.png'); /* Path to your logo */
+  background-size: 26%, 30%, 10%; /* Adjust the size of the logo */
+  background-position-x:  3%, 0%, 99%;
+  background-position-y: 50%, 0%, 99%;
+  background-repeat: no-repeat, repeat-y, no-repeat; /* Ensure the logo isn't repeated */
 }
+
+// .reveal .slide-background:first-of-type {
+//   background-color: #b0efec; /* Background color (optional) */
+//   background-image: url('data/logo.png'); /* Path to your logo */
+//   background-size: 20%; /* Adjust the size of the logo */
+//   background-position-y: 50%;
+//   background-position-x: 5%;
+//   background-repeat: no-repeat; /* Ensure the logo isn't repeated */
+// }
 
 
 // .reveal .slides:first-of-type > section{
