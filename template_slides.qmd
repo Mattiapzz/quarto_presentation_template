@@ -151,3 +151,47 @@ test
   </video>
 </div>
 ```
+
+## Multiple columns
+
+::: {.columns}
+
+::: {.column width="50%"}
+This is a column
+
+- item 1
+- item 2
+
+:::
+
+::: {.column width="50%"}
+This is another column
+
+- item 1
+
+:::
+
+:::
+
+## Tables
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+<!-- ## table from latex
+
+```{=latex}
+\usepackage{tabularx}
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Header 1} & \textbf{Header 2} & \textbf{Header 3} \\ \hline
+Cell 1 & Cell 2 & Cell 3 \\ \hline
+Cell 4 & Cell 5 & Cell 6 \\ \hline
+\end{tabular}
+\end{table}
+``` -->
