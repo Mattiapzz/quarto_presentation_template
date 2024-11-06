@@ -39,8 +39,8 @@ format:
     # logo: unitn.png
     footer: "Mattia Piazza | University of Trento, Italy"
     auto-play-media: true
-    # width: 1920
-    # height: 1080
+    width: 1920
+    height: 1080
     html-math-method: mathjax
 ---
 
@@ -125,7 +125,7 @@ $$
 ![](data/logo.png){fig-align="center" fig-width="50%"}
 
 
-## local video
+## local video (black border)
 
 {{< video data/picci.mp4 >}}
 
