@@ -213,3 +213,13 @@
 }
 
 .reveal ul {list-style-type: square;}
+
+// fontsize of normal text and in lists in ratio to the width and with a min and max value
+.reveal p, .reveal ul > li, .reveal ol > li, .reveal blockquote, .reveal pre, .reveal table, .reveal th, .reveal td, .reveal code {
+  font-size: 30px;
+  // font-size: 3.5vw;
+}
+
+.reveal .footer p{
+  font-size: 10px;
+}
